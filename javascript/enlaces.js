@@ -1,12 +1,42 @@
 
+var hmc =
+document.getElementById("hmc");
+hmc.onclick = function() {
+    window.open("https://www.hmc.mil.ar/", "_blank");
+};
 
-//document.getElementById("hmc").onclick = window.location = "https://www.hmc.mil.ar/"
+var hiba =
+document.getElementById("hiba");
+hiba.onclick = function() {
+    window.open("http://hospitalitaliano.org.ar/#!/home/principal", "_blank");
+};
 
-//document.getElementById("hiba").onclick = window.location = "http://hospitalitaliano.org.ar/#!/home/principal"
+var sg =
+document.getElementById("sg");
+sg.onclick = function() {
+    window.open("https://www.sg.com.ar/sitio/", "_blank");
+};
 
-//document.getElementById("sg").onclick = window.location = "https://www.sg.com.ar/sitio/"
+var chsjd =
+document.getElementById("chsjd");
+chsjd.onclick = function() {
+    window.open("https://sanjuandedios.org.ar/", "_blank");
+};
 
-//document.getElementById("chsjd").onclick = window.location.replace("https://sanjuandedios.org.ar/");//*
+var untref =
+document.getElementById("untref");
+untref.onclick = function() {
+    window.open("https://untref.edu.ar/", "_blank");
+};
 
+var favaloro =
+document.getElementById("favaloro");
+favaloro.onclick = function() {
+    window.open("https://www.favaloro.edu.ar/", "_blank");
+};
 
-
+var undef =
+document.getElementById("undef");
+undef.onclick = function() {
+    window.open("https://www.undef.edu.ar/", "_blank");
+};
