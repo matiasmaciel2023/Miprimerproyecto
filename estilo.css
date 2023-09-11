@@ -1,20 +1,28 @@
 
 *{
     margin: 0;
-    padding: 10px;
+    padding: 9px;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to right, #f127e6, #f5af19);
+    background-size: auto;
+    width: 100%;
+    resize: vertical;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 header{
+    width: max-content;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    position: inherit;
+    padding-top: 2%;
+    resize: both;
+
 }
 
 .boton{
@@ -22,59 +30,70 @@ header{
 }
 
 .circulo > .imagen{
-    width: 200px;
-    height: 200px;
+
+    height: 250px;
+    width: auto;
     color: #f5af19;
-    border-radius: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    float: right;
+
 }
 
 .imagen{
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 100%;
  }
  
 
 h1{
-    font-size: 46px;
+    font-size: 50px;
     color: white;
-}
+    width: max-content;
+    columns: 1;
 
+}
+div{
+    display: block;
+    max-width: auto;
+
+}
 a {
-    font-size: 16px;
-    font-style: italic;
     color: #312323;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+
+    display:inline;
+
+}
+
+section{
+    width: 100%;
+    height: auto;
 }
 
 main p{
-    font-size: 18px;
+    font-size: 1%;
     color: white;
+    width: max-content;
 }
 
 main li{
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 main a{
     text-decoration: none;
     color: black;
+    width: max-content;
+
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 200%;
     font-weight: bold;
     color: white;
+    width: max-content;
+
 }
 
 main p{
@@ -85,10 +104,21 @@ main p{
 
 footer { 
     text-align: center;
+    background-color: #D1DFE3;
+    color: black;
+    padding: 10px;
+    position: relative;
+    bottom: 0; 
+    width: 100%;
 }
 
 nav{
     display: flex;
+
+    max-width: auto;
+}
+
+.barra{
     width: 100%;
 }
 
@@ -97,8 +127,41 @@ button{
 }
 
 .boton{
-    column-count: 2;
+    column-count: 1 4;
     white-space: nowrap;
     background-color: #D1DFE3;
 }
 
+.listas{
+    list-style: none;
+}
+.listas1{
+    list-style: none;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    width: 80%;
+    flex-wrap: nowrap;
+}
+.aptitudesmain{
+    width: 50%;
+}
+.dato{
+    white-space: nowrap;
+}
+.negrita{
+    white-space: nowrap;
+    font-weight: bold;
+}
+.contenedor{
+    width: max-content;
+    flex: auto;
+}
+.cursiva{
+    font-style: italic;
+}
+.imagen0{
+    text-align: right;
+}

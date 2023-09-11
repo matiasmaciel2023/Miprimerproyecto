@@ -9,92 +9,96 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
     </head>
-<body>
     <header>
-        <div class="barra">
+        <div>
             <div>
                 <h1>MATIAS ALEJANDRO MACIEL</h1>
-                <div> 
-                    <div class="circulo">
-                    <img src="css/img/matias.png" alt="imagen" class="imagen" class="circular">
-                </div>
                 <h2>Licenciado en Enfermeria</h2>
             </div>
-            <nav>
-                <div class="boton">
-                    <a href="index.html">Informacion Personal</a>
-                </div>
-                <div class="boton">
-                    <a href="formacion.html">Formacion Academica</a>
-                </div>
-                <div class="boton">
-                    <a href="experiencia.html">Experiencia</a>
-                </div>
-                <div class="boton">
-                    <a href="habilidades.html">Habilidades</a>
-                </div>                
-            </nav>
+            <div class="barra">
+                <nav>
+                    <div class="boton">
+                        <a href="index.html">Informacion Personal</a>
+                    </div>
+                    <div class="boton">
+                        <a href="formacion.html">Formacion Academica</a>
+                    </div>
+                    <div class="boton">
+                        <a href="experiencia.html">Experiencia</a>
+                    </div>
+                    <div class="boton">
+                        <a href="habilidades.html">Habilidades</a>
+                    </div>                
+                </nav>
+            </div> 
+        </div>
+        <div class="circulo">
+            <img src="css/img/matias.png" alt="imagen" class="imagen" class="circular">
         </div>
     </header>
     <main>
-        <div class="contenedor">
-            <h2>Experiencia Profesional</h2>
-            <div class="flex">
-                <div>
-                    <ul>
-                        <h3>
-                            <li>
-                            <span class="cursiva">Enfermero | Hospital Militar Central</span> 
-                            <button id="hmc">Visita HMC
-
-                            </button>
-                            </li>
-                        </h3>
-                        <p class="cursiva">Diciembre 2018 a Abril 2019 (4 meses)</p>
-                            <p>Servicios de UTI y Guardia Medica</p>
-                        <h3>
-                            <li>
-                            <span class="negrita">Enfermero | Hospital Italiano de Buenos Aires</span>
-                            <button id="hiba">Visita HIBA
-
-                            </button>
-                            </li>
-                        </h3>
-                        <p class="cursiva">Marzo 2019 a Mayo 2019 (3 meses)</p>
-                            <p>Servicio de UTI</p>
-                        <h3>
-                            <li>
-                            <span class="negrita">Enfermero | Sanatorio Güemes</span>
-                            <button id="sg">Visita SG
-
-                            </button>
-                            </li>
-                        </h3>
-                        <p class="cursiva">Septiembre 2019 a Noviembre 2020 (1 año y 2 meses)</p>
-                            <p>Servicio de UTI</p>
-                        <h3>
-                            <li>
-                            <span class="negrita">Enfermero | Casa Hospital San Juan de Dios</span>
-                            </li>
-                        </h3>
-                        <p class="cursiva">Septiembre 2019 a Noviembre 2020 (1 año y 2 meses)</p>
-                            <p>Servicios de UTI y Guardia Medica</p>
-                        <h3>
-                            <li>
-                            <span class="negrita">Enfermero | Casa Hospital San Juan de Dios</span>
-                            <button id="chsjd">Visita CHSJD
-
-                                </button>
-                            </li>
-                        </h3>
-                        <p class="cursiva">Desde Noviembre 2021</p>
-                            <p>Servicios de UTI, Guardia Medica, Recuperacion de Anestesia y Hemodinamia</p>
-                    </ul>
-    
-                </div>
+        <section class="contenedor">
+            <div>
+                <h2>Experiencia Profesional</h2>
             </div>
-            
-        </div>
+            <div>
+                <ul>
+                    <li class="listas1">
+                        <div>
+                            <h3>
+                                Enfermero | Hospital Militar Central
+                            </h3>
+                            <p class="cursiva">Diciembre 2018 a Abril 2019 (4 meses)</p>
+                            <p>Servicios de UTI y Guardia Medica</p>
+                        </div>
+                        <div>
+                            <button id="hmc">Visita HMC</button>
+                        </div>
+                    </li>
+
+                    <li class="listas1">
+                        <div>
+                            <h3>
+                                Enfermero | Hospital Italiano de Buenos Aires
+                            </h3>
+                            <p class="cursiva">Marzo 2019 a Mayo 2019 (3 meses)</p>
+                            <p>Servicio de UTI</p>
+                        </div>
+                        <div>
+                            <button id="hiba">Visita HIBA</button>
+                        </div>
+                    </li>
+                    
+
+
+                    <li class="listas1">
+                        <div>
+                            <h3>
+                                Enfermero | Sanatorio Güemes
+                            </h3>
+                            <p class="cursiva">Septiembre 2019 a Noviembre 2020 (1 año y 2 meses)</p>
+                            <p>Servicio de UTI</p>
+                        </div>
+                        <div>
+                             <button id="sg">Visita SG
+                        </div>
+                    </li>
+                    <li class="listas1">
+                        <div>
+                            <h3>
+                                Enfermero | Casa Hospital San Juan de Dios
+                            </h3>
+                            <p class="cursiva">Septiembre 2019 a Noviembre 2020 (1 año y 2 meses) y desde Noviembre 2021</p>
+                            <p>Servicios de UTI, Guardia Medica, Recuperacion de Anestesia y Hemodinamia</p>
+                        </div>
+                        <div>
+                            <button id="chsjd">Visita CHSJD</button>
+                        </div>
+                    </li>                   
+                </ul>
+             </div>
+        </section>
+
     </main>
     <footer>
         Todos los derechos reservados. 2023
