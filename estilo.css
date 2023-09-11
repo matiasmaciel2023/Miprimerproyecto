@@ -33,7 +33,9 @@ header{
     color: #f5af19;
 
 }
-
+.circulo{
+    column-width: 3;
+}
 
 .imagen{
 
@@ -161,3 +163,4 @@ button{
 .imagen0{
     text-align: right;
 }
+
